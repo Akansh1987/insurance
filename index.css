@@ -93,6 +93,27 @@
     width: 250px;
 }
 
+
+.customerAssurance{
+
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+.customerAssuranceSections{
+
+    height: 170px;
+    width: 100%;
+    border-right: 1.5px solid rgb(194, 192, 192);
+    background: #E8EEFD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
 @media (max-width:500px){
 
     .menu ul{
@@ -110,6 +131,32 @@
         max-width: 60%;
         margin: auto;
     }
+    .customerAssurance{
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        /* margin: auto; */
+        margin-left: 30px;
+        margin-bottom: 0px;
+        padding: 0px;
+        /* box-sizing: border-box; */
+        margin: auto;
+
+    }
+    .customerAssuranceSections{
+
+       
+        
+        margin-bottom: 0px;
+        margin-top: 0%;
+        border-bottom: 1.5px solid rgb(194, 192, 192);
+        border-right: none;
+        
+        
+    }
+    
+    
+    
 }
     
 
