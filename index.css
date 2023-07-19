@@ -98,6 +98,7 @@
 
     display: flex;
     justify-content:center;
+    margin-bottom: 10px;
     
 
 }
@@ -110,8 +111,23 @@
     background: #E8EEFD;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.customerAssuranceSections img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
     
     
+}
+
+.customerAssuranceSections h3{
+  margin: auto;
 }
 
 @media (max-width:500px){
