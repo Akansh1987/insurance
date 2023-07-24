@@ -132,6 +132,22 @@
   margin: auto;
 }
 
+
+.Relatable{
+    display:flex;
+    margin-bottom: 80px;
+}
+.Relatable h1{
+    margin: auto;
+    letter-spacing: 2px;
+    
+}
+
+.highlite{
+    color: #858282;
+}
+
+
 @media (max-width:500px){
 
     .menu ul{
