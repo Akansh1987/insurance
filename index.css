@@ -194,7 +194,14 @@
     text-align: center;
 }
 
-@media (max-width:500px){
+@media only screen and (max-width: 1100px){
+    .feature .paragraph p{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 670px)
+{
 
     .menu ul{
         display: none;
@@ -224,11 +231,12 @@
 
         display: grid;
         grid-template-columns: auto auto ;
-        /* background-color: #f8f9fa; */
+       
         padding: 10px;
         margin-bottom: 40px;
 
     }
+
     .customerAssuranceSections{
 
        
@@ -236,7 +244,7 @@
         margin-bottom: 0px;
         margin-top: 0%; 
         border-bottom: 1.5px solid rgb(194, 192, 192);
-        border-radius: 10px;
+
 
 
 
@@ -277,6 +285,12 @@
         width: 100%;
         margin: 10px auto;
     }
+
+    .feature .paragraph p{
+        display:block;
+    }
+
+    
     
     
     
