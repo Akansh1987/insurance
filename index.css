@@ -45,7 +45,7 @@
 
 .banner img{
     width: 100%;
-    /* height: 500px; */
+    
     height: auto;
     object-fit: fill;
     
@@ -137,7 +137,7 @@
 .container{
     display:flex;
     flex-wrap: wrap;
-    max-width: 85%;
+    max-width: 90%;
     margin: auto;
     justify-content: space-between;
     margin-top: 80px;
@@ -156,7 +156,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
   
     
 }
@@ -171,14 +171,15 @@
 }
 
 .feature h3{
-    margin-top: 20px;
+    margin-top: 90px;
+    
 }
 
 .Benefits{
     
     text-align: center;
     margin-bottom: 30px;
-   
+  
 
 
 }
@@ -186,6 +187,43 @@
 .Benefits h1 span{
     color: #858282;
 }
+
+.container .feature p{
+    margin-top: 20px;
+   
+    
+}
+
+.Customer-Service{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    
+
+    
+}
+
+
+
+.Customer-Service .customer-service-image img{
+    width: 800px;
+}
+
+
+.Customer-Service .Details h1{
+    margin-bottom: 20px;
+    
+}
+
+.Customer-Service .Details  span{
+    color: #858282;
+    
+}
+
+
+
+
+
 
 
 
@@ -265,6 +303,7 @@
 
     .container .feature p{
         padding: auto;
+        
     }
 
     
