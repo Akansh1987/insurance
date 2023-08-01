@@ -305,8 +305,17 @@
         padding: auto;
         
     }
-
+     
+    .Customer-Service{
+        flex-direction: column;
     
+        
+    }
+    
+    .Customer-Service .customer-service-image img{
+        width: 60vh;
+       
+    }
 
     
     
