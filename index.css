@@ -32,7 +32,7 @@
     display: none;
 }
 
-.menu ul li{
+.menu ul li {
     list-style: none;
     margin: 5px;
 }
@@ -83,6 +83,7 @@
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 5px 5px 2px rgb(121, 120, 120);
+    margin-bottom: 60px;
 }
 
 .service img{
@@ -93,9 +94,7 @@
     
 }
 
-
-
-
+ 
 
 
 .customerAssurance{
@@ -287,7 +286,7 @@
 @media only screen and (max-width: 670px)
 {
 
-    .menu ul{
+    /* .menu ul{
         display: none;
     }
     .hamburger{
@@ -295,7 +294,7 @@
     }
     .tollFree{
         display: none;
-    }
+    } */
     .service-listing{
         display: flex;
         flex-direction: column;
